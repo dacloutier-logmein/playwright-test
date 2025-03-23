@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@playwright/test": "1.51.1",
+    "@types/node": "22.13.11"
+  },
+  "engines": {
+    "node": "22.13.1",
+    "npm": "11.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "pnpm playwright test",
+    "prepare": "",
+    "outdated": "pnpm outdated --long --json"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7"
+  }
+}
